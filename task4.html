@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <meta charset="UTF-8">
+    <title>Заданий 4</title>
+    </head>
+    <body>
+        <div id='container'>
+                
+        </div>
+        <script>
+const element = document.createElement('button');
+const container = document.querySelector('#container');
+container.appendChild(element);
+element.textContent ='кнопка';
+
+element.addEventListener('click', function(){
+    console.log('Этот текст говорит о том, что я всё сделал правильно');
+});
+</script>
+
+
+</body>
+</html>
